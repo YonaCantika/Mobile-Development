@@ -25,11 +25,11 @@ class AuthProvider with ChangeNotifier {
 
     _isLoading = false;
     notifyListeners();
-    // JANGAN ADA RETURN FALSE DI SINI
+    
   } catch (e) {
     _isLoading = false;
     notifyListeners();
-    rethrow; // Ini yang bikin notif MERAH muncul
+    rethrow; // notif MERAH
   }
 }
 }
