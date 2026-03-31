@@ -44,7 +44,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 end: Alignment.bottomRight,
                 colors: [Color(0xFFE3F2FD), Color(0xFFBBDEFB)],
               ),
-              // JIKA PAKAI GAMBAR ASSET, BUKA KOMENTAR DI BAWAH:
+              // klo image
               // image: DecorationImage(
               //   image: AssetImage("assets/images/login_bg.png"),
               //   fit: BoxFit.cover,
